@@ -8,7 +8,7 @@ body {
 .right-side{
     width: 699px;
     height: 590px;
-    padding: 40px 0;
+    padding: 30px 0;
 }
 
 .insta-logo {
@@ -39,4 +39,11 @@ body {
     margin-top: -10px;
     font-weight: normal;
     text-align: center;
+}
+
+.insta-img>img{
+    width: 371px;
+    display: flex;
+    margin: 0 auto;
+    height: 290px;
 }
