@@ -5,7 +5,12 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.right-side{
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.right-side {
     width: 699px;
     height: 590px;
     padding: 30px 0;
@@ -21,29 +26,62 @@ body {
     height: 98px;
     font-size: 90px;
     display: flex;
-    align-items: center;color:  rgb(131, 58, 180);
+    align-items: center;
+    color: rgb(131, 58, 180);
 }
 
-.edit-part{
+.edit-part {
     padding: 40px;
 }
 
-.text-of-user>h1{
+.text-of-user>h1 {
     color: #111112;
     font-weight: normal;
     text-align: center;
 }
 
-.text-of-user>h2{
+.text-of-user>h2 {
     font-size: 32px;
     margin-top: -10px;
     font-weight: normal;
+    color: #FF5904;
     text-align: center;
 }
 
-.insta-img>img{
+.insta-img>img {
     width: 371px;
     display: flex;
     margin: 0 auto;
     height: 290px;
+}
+
+
+form>h2 {
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    margin-top: 70px;
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.mobile-email-input {
+    width: 546px;
+    height: 60px;
+    padding: 10px 16px;
+    margin-top: 10px;
+}
+
+.mobile-email-input>input {
+    width: 516px;
+    height: 38px;
+    border: 1px solid #E7E9E9;
+    font-size: 15px;
+    padding: 10px 16px;
+    border-radius: 10px;
+    color: #C4C6C8;
+    font-weight: 600;
 }
