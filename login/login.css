@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.right-side{
+    width: 699px;
+    height: 590px;
+    padding: 40px 0;
+}
+
+.insta-logo {
+    width: 699px;
+    height: 100px;
+}
+
+.fa-instagram {
+    width: 198px;
+    height: 98px;
+    font-size: 90px;
+    display: flex;
+    align-items: center;color:  rgb(131, 58, 180);
+}
+
+.edit-part{
+    padding: 40px;
+}
+
+.text-of-user>h1{
+    color: #111112;
+    font-weight: normal;
+    text-align: center;
+}
+
+.text-of-user>h2{
+    font-size: 32px;
+    margin-top: -10px;
+    font-weight: normal;
+    text-align: center;
+}
