@@ -83,7 +83,7 @@ form>h2 {
     padding: 10px 16px;
     outline: none;
     border-radius: 10px;
-    color: #C4C6C8;
+    color: #6b6c6d;
     font-weight: 600;
 }
 
@@ -103,4 +103,72 @@ form>h2 {
     cursor: no-drop;
     margin-top: 15px;
     border-radius: 25px;
+}
+
+.forget-password {
+    width: 546px;
+    height: 56px;
+    padding: 0 20px;
+}
+
+.forget-password>p {
+    text-align: center;
+    width: 100%;
+    height: 44px;
+    font-weight: normal;
+    cursor: pointer;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+}
+
+.forget-password>p:hover {
+    background-color: #f2f2f3;
+    border-radius: 25px;
+}
+
+.facebook-login {
+    width: 546px;
+    height: 56px;
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.facebook-login>span {
+    width: 100%;
+    height: 44px;
+    border: 1px solid #E7E9E9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    gap: 10px;
+}
+
+.fa-facebook {
+    color: blue;
+    font-size: 13px;
+}
+
+.create-newAccount {
+    width: 546px;
+    height: 56px;
+    padding: 0 20px;
+}
+
+.create-newAccount>button {
+    width: 100%;
+    height: 44px;
+    margin-top: 15px;
+    border: 1px solid #0064E0;
+    color: #0064E0;
+    border-radius: 25px;
+    background: none;
+    font-size: 16px;
+    font: 600;
 }
